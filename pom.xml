@@ -9,5 +9,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>23</maven.compiler.release>
         <exec.mainClass>com.mycompany.gitstudent.GitStudent</exec.mainClass>
+   
     </properties>
+    <dependencies>
+        <!-- Thư viện TestNG dùng để viết unit test -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.8.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
